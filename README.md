@@ -3,7 +3,7 @@
 | Student's name | SCIPER |
 | -------------- | ------ |
 | Inès Kahlaoui| 310587 |
-| Romain Berquet| |
+| Romain Berquet| 316122 |
 | Antoine Munier| 314500 |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
