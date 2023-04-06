@@ -1,38 +1,46 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import logo from './logo.svg';
+import { accessToken, logout, getCurrentUserProfile } from './spotify';
+import { catchErrors } from './utils';
 import './App.css';
 
 function App() {
+  const [token, setToken] = useState(null);
+  const [profile, setProfile] = useState(null);
+
   useEffect(() => {
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const accessToken = urlParams.get('access_token');
-    const refreshToken = urlParams.get('refresh_token');
+    setToken(accessToken);
 
-    console.log(accessToken);
-    console.log(refreshToken);
+    const fetchData = async () => {
+      const { data } = await getCurrentUserProfile();
+      setProfile(data);
+    };
 
-    if (refreshToken) {
-      fetch(`/refresh_token?refresh_token=${refreshToken}`)
-        .then(res => res.json())
-        .then(data => console.log(data))
-        .catch(err => console.error(err));
-    }
+    catchErrors(fetchData());
   }, []);
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="http://localhost:8080/login"
-        >
-          Log into your Spotify account via the following link
-        </a>
+        {!token ? (
+          <a className="App-link" href="http://localhost:8080/login">
+            Log in to Spotify
+          </a>
+        ) : (
+          <>
+            <button onClick={logout}>Log Out</button>
+
+            {profile && (
+              <div>
+                <h1>{profile.display_name}</h1>
+                <p>{profile.followers.total} Followers</p>
+                {profile.images.length && profile.images[0].url && (
+                  <img src={profile.images[0].url} alt="Avatar"/>
+                )}
+              </div>
+            )}
+          </>
+        )}
       </header>
     </div>
   );
