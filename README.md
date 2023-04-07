@@ -12,8 +12,8 @@
 
 **10% of the final grade**
 
-The report is available [here](https://github.com/com-480-data-visualization/project-2023-kibram/blob/master/Milestone1/milestone1.ipynb).
-The jupyter notebook for exploratory analysis is available [here](https://github.com/com-480-data-visualization/project-2023-kibram/blob/master/Milestone1/Milestone1.pdf).
+ The jupyter notebook for exploratory analysis is available [here](https://github.com/com-480-data-visualization/project-2023-kibram/blob/master/Milestone1/milestone1.ipynb).
+The report is available [here](https://github.com/com-480-data-visualization/project-2023-kibram/blob/master/Milestone1/Milestone1.pdf).
 
 
 ## Milestone 2 (5th May, 5pm)
