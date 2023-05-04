@@ -49,16 +49,16 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .navig {
     background: #f2f7ff;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     position: sticky;
     top: 0;
     z-index: auto;
@@ -82,7 +82,7 @@
 }
 
 .navig_item {
-    height :60px
+    height :50px
 }
 
 .navig_links {
