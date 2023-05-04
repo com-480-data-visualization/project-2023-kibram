@@ -27,10 +27,23 @@ const menu = document.querySelector('#mobile_menu');
 const menu_links = document.querySelector('.navig_menu');
 const kibramlogo = document.querySelector('#kibram_logo');
 
-
+// NAVIGATION MENU
 const mobilemenu = () => {
   menu.classList.toggle('is-active');
   menu_links.classList.toggle('active');
 };
 
 menu.addEventListener('click', mobilemenu);
+
+
+// TEAM
+const members = document.querySelectorAll('.member');
+members.forEach(member => {
+  const img = member.querySelector('img');
+  img.addEventListener('mouseenter', () => {
+    img.style.transform = 'scale(1.1)';
+  });
+  img.addEventListener('mouseleave', () => {
+    img.style.transform = 'scale(1)';
+  });
+});
