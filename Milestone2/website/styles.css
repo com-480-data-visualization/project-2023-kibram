@@ -258,7 +258,7 @@
 /* ARTISTS */
 .main {
     background-color: #f2f7ff;
-    padding: 6rem 0;
+    padding: 2rem 0;
 }
   
 .main_container {
@@ -302,7 +302,7 @@
   
 .main_content p {
     margin-top: 1rem;
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 700;
     text-align: justify;
 }
@@ -402,11 +402,12 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    margin-top: 2rem;
 }
   
 .audio_content p {
     margin-top: 1rem;
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 700;
     text-align: justify;
     margin-bottom: 25px;
@@ -460,7 +461,7 @@
   
 .ai_content p {
     margin-top: 1rem;
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 700;
     text-align: justify;
     margin-bottom: 15px;
