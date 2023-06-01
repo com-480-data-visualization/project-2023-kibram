@@ -21,7 +21,7 @@ The report is available [here](https://github.com/com-480-data-visualization/pro
 **10% of the final grade**
 
 
-## Milestone 3 (2nd June, 5pm)
+## Milestone 3 (4th June, 5pm)
 
 **80% of the final grade**
 
