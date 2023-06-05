@@ -25,9 +25,10 @@ The report is available [here](https://github.com/com-480-data-visualization/pro
 
 ## Milestone 3 (4th June, 5pm)
 
-The final website is available at the following [link]().
+The final website is available at the following [link](https://ineskahlaoui.github.io/website/).
+The website source code is available in the following [directory](https://github.com/com-480-data-visualization/project-2023-kibram/blob/master/Milestone3/website), with all dependencies and datasets in the same directory.
 
-The process book can be found [here](https://github.com/com-480-data-visualization/project-2023-kibram/blob/master/Milestone3/ProcessBook.pdf).
+The process book can be found [here](https://github.com/com-480-data-visualization/project-2023-kibram/blob/master/Milestone3/Processbook.pdf).
 
 The screencast is available [here](). You can also access an MP4 version [here](https://github.com/com-480-data-visualization/project-2023-kibram/blob/master/Milestone3/screencast.mp4).
 
