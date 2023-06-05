@@ -6,7 +6,7 @@
 | Romain Berquet| 316122 |
 | Antoine Munier| 314500 |
 
-[Milestone 1](https://github.com/com-480-data-visualization/project-2023-kibram/tree/master/Milestone1) • [Milestone 2](https://github.com/com-480-data-visualization/project-2023-kibram/tree/master/Milestone2) • [Milestone 3](#milestone-3)
+[Milestone 1](https://github.com/com-480-data-visualization/project-2023-kibram/tree/master/Milestone1) • [Milestone 2](https://github.com/com-480-data-visualization/project-2023-kibram/tree/master/Milestone2) • [Milestone 3]([#milestone-3](https://github.com/com-480-data-visualization/project-2023-kibram/tree/master/Milestone3))
 
 ## Milestone 1 (7th April, 5pm)
 
