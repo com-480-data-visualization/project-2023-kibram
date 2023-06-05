@@ -6,7 +6,7 @@
 | Romain Berquet| 316122 |
 | Antoine Munier| 314500 |
 
-[Milestone 1](https://github.com/com-480-data-visualization/project-2023-kibram/tree/master/Milestone1) • [Milestone 2](https://github.com/com-480-data-visualization/project-2023-kibram/tree/master/Milestone2) • [Milestone 3](#milestone-3)
+[Milestone 1](https://github.com/com-480-data-visualization/project-2023-kibram/tree/master/Milestone1) • [Milestone 2](https://github.com/com-480-data-visualization/project-2023-kibram/tree/master/Milestone2) • [Milestone 3]([#milestone-3](https://github.com/com-480-data-visualization/project-2023-kibram/tree/master/Milestone3))
 
 ## Milestone 1 (7th April, 5pm)
 
@@ -30,6 +30,6 @@ The website source code is available in the following [directory](https://github
 
 The process book can be found [here](https://github.com/com-480-data-visualization/project-2023-kibram/blob/master/Milestone3/Processbook.pdf).
 
-The screencast is available [here](). You can also access an MP4 version [here](https://github.com/com-480-data-visualization/project-2023-kibram/blob/master/Milestone3/screencast.mp4).
+The screencast is available [here](https://drive.google.com/drive/u/1/folders/11LD_BkJkG5mJ7qE4nJZnV38vv5O4XqG7).
 
 
